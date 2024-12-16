@@ -497,10 +497,10 @@ elif menu == "Bandwidth Utilization":
 
         # Analyze Packet Size Efficiency
         st.subheader("Packet Size Efficiency")
-        avg_packet_size_threshold = 512  # Define a threshold for inefficient packet size
+        avg_packet_size_threshold = 200  # Define a threshold for inefficient packet size
         inefficient_packets = data[data['avg_packet_size'] < avg_packet_size_threshold]
         total_inefficient = len(inefficient_packets)
-        st.write(f"Total rows with inefficient packet sizes (< {avg_packet_size_threshold} bytes): {total_inefficient}")
+        st.write(f"Total rows with inefficient packet sizes (< {avg_packet_size_threshold} MB): {total_inefficient}")
         st.write("Sample Rows with Inefficient Packet Sizes:")
         st.dataframe(inefficient_packets.head(5))
 
