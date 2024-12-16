@@ -1,0 +1,313 @@
+body {
+background - color: #3E2723;  /* Dark brown color */
+}
+
+
+/* TITLE============================================================================================================================== */
+.custom-markdown {
+    font-family: 'times new roman', Arial, sans-serif;
+    color: #FCC737;
+    font-size: 50px;
+}
+.custom-tagline {
+    color: #FCC737;  /* Set text color to yellow */
+    font-size: 20px;  /* Optional: adjust the font size */
+    font-family: 'times new roman', sans-serif;  /* Optional: adjust the font family */
+}
+/* ============================================================================================================================== */
+
+
+/* SIDEBAR============================================================================================================================== */
+
+/* Style the sidebar container */
+.st-key-sidebar {
+    background-color: #2C2C34 ; /* Dark background color */
+    color: #FFFFFF; /* Light text color for contrast */
+    padding: 20px; /* Padding for content */
+    border-radius: 10px; /* Rounded corners for a smooth look */
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.7), 0 8px 20px 0 rgba(0, 0, 0, 0.4); /* Enhanced shadow for a dark theme */
+    font-family: 'Segoe UI', sans-serif; /* Modern font family */
+    border: 1px solid #444; /* Subtle border for better definition */
+}
+.st-key-sidebar:hover {
+    background-color: #242424; /* Slightly lighter shade on hover */
+    box-shadow: 0 6px 15px 0 rgba(0, 0, 0, 0.8), 0 10px 25px 0 rgba(0, 0, 0, 0.5); /* Enhanced hover shadow */
+}
+
+/* Custom styles for the radio button group */
+.st-key-sidebar .stRadio {
+    margin-bottom: 20px;
+}
+
+/* Style for the radio button labels */
+.st-key-sidebar .stRadio label {
+    color: white; /* Text color for labels */
+    font-weight: bold; /* Bold font weight */
+    font-size: 24px; /* Font size */
+    cursor: pointer; /* Pointer cursor */
+    transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+/* Style for the radio button labels when hovered */
+.st-key-sidebar .stRadio label:hover {
+    color: #ffd700; /* Gold color on hover */
+}
+
+/* Style for the selected option (checked radio button) */
+.st-key-sidebar .stRadio input[type="radio"]:checked + div label {
+    color: #ffd700; /* Gold color */
+    font-size: 20px; /* Larger font size */
+    text-decoration: underline; /* Underline for emphasis */
+}
+
+div.st-emotion-cache-ysk9xe.e1nzilvr5 {
+    font-size: 100px;
+}
+
+label.st-am.st-ae.st-an.st-ai.st-ao.st-ap.st-aq.st-ar.st-as.st-at.st-au.st-av.st-aw.st-ax{
+    font-family: "Arial", sans-serif; /* Clean and modern font */
+    font-size: 40px; /* Slightly larger font size for readability */
+    color: white; /* Subtle dark gray for text */
+    padding: 10px;
+}
+
+
+
+.st-emotion-cache-3lmqu2 {
+    font-family: "Arial", sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #3B1C32;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #6A1E55;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+
+.st-emotion-cache-3lmqu2 {
+    font-family: "Arial", sans-serif; /* Clean and professional font */
+    font-size: 18px; /* Slightly larger text for better readability */
+    color: #ffffff; /* Soft dark gray for text */
+    background-color: #3B1C32; /* Light gray background for a modern look */
+    padding: 10px; /* Padding for better spacing */
+    border-radius: 10px; /* Rounded corners for a sleek look */
+    border: 1px solid #6A1E55; /* Subtle border to define the area */
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+    transition: all 0.3s ease; /* Smooth transition effect */
+}
+
+/* Add hover effect */
+.st-emotion-cache-3lmqu2:hover {
+    background-color: #FFDBB5; /* Brighten the background on hover */
+    color: #000000; /* Switch text color to black */
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.8); /* Slightly stronger shadow */
+    transform: translateY(-3px); /* Subtle lift effect */
+}
+
+/* Add focus effect */
+.st-emotion-cache-3lmqu2:focus {
+    outline: none; /* Remove default outline */
+    border: 1px solid #007BFF; /* Highlight with a blue border */
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.5); /* Glow effect */
+}
+
+
+
+
+/* SIDEBAR============================================================================================================================== */
+
+
+.sidebar-header {
+        font-size: 24px; /* Make the font larger */
+        font-weight: bold; /* Bold text */
+        color: #FFBD73; /* Custom orange color */
+        text-align: center; /* Center the text */
+        background-color: #3E3E42; /* Dark gray background */
+        padding: 15px; /* Add some padding */
+        border-radius: 12px; /* Rounded corners */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Subtle shadow */
+        margin-bottom: 20px; /* Add space below the header */
+}
+
+
+
+
+/* ===IP ADDRESS ANALYSIS===================================================================================================================== */
+
+
+.ip-address {
+    font-size: 22px; /* Adjust font size to make it bigger */
+    color: white; /* Change text color to yellow */
+    font-weight: bold; /* Make the text bold */
+}
+
+.country-box {
+    font-size: 24px; /* Adjust font size to make it bigger */
+    color: #FFF5D7; /* Text color for dark theme (white for contrast) */
+    font-weight: bold; /* Make the text bold */
+
+    /* Card-like box style */
+    background-color: #333; /* Dark background color for the box */
+    padding: 15px; /* Padding inside the box */
+    border-radius: 10px; /* Rounded corners */
+
+    /* Box shadow for the card effect */
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+
+    width: fit-content; /* Adjust width to the content */
+    margin: 10px 0; /* Space around the box */
+
+    /* Adding subtle hover effect to improve interactivity */
+    transition: all 0.3s ease;
+}
+
+
+.security-assessment {
+    font-size: 20px;
+    font-weight: bold;
+    color: #7AB2D3;
+    margin-bottom: 10px;
+}
+
+.assessment-text {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #FFF5D7;
+    background-color: #2a2a2a;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+    margin-bottom: 20px;
+}
+
+.recommendation-header {
+    font-size: 20px;
+    font-weight: bold;
+    color: #7AB2D3;
+    margin-bottom: 10px;
+}
+
+.recommendation-text {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #FFF5D7;
+    background-color: #333333;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+}
+
+
+/* ==ABOUT ME================================================================================================================ */
+
+
+
+/* Profile card styling */
+.profile-card {
+    background-color: #1e1e1e; /* Dark background for profile card */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1); /* Darker shadow for a more pronounced effect */
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.profile-name {
+    font-size: 24px;
+    font-weight: bold;
+    color: #00bcd4; /* Lighter cyan color for the name */
+}
+
+.profile-description {
+    font-size: 16px;
+    color: #e0e0e0; /* Light gray color for text */
+    line-height: 1.6;
+}
+
+/* Education card styling */
+.education-card {
+    background-color: #2a2a2a; /* Dark gray background for education card */
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1); /* Darker shadow */
+    margin-bottom: 20px;
+}
+
+.education-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #00bcd4; /* Lighter cyan color for title */
+}
+
+.education-card p {
+    font-size: 16px;
+    color: #e0e0e0; /* Light gray text for better visibility */
+}
+
+/* Journey card styling */
+.journey-card {
+    background-color: #333333; /* Dark background for journey card */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1); /* Dark shadow */
+    margin-bottom: 20px;
+}
+
+.journey-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ff9800; /* Orange color for the title */
+}
+
+.journey-description {
+    font-size: 16px;
+    color: #e0e0e0; /* Light gray color for the description */
+    line-height: 1.6;
+}
+
+/* Connect title styling */
+.connect-title {
+    color: #00bcd4; /* Light cyan for the title */
+    font-size: 36px;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 10px;
+    margin-top: 30px
+}
+
+/* Contact Card Styling */
+.contact-card {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+    transition: all 0.3s ease;
+}
+
+/* Hover effect on contact card */
+.contact-card:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 1);
+    transform: translateY(-5px);
+}
+
+/* Contact link styling */
+.contact-link {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Styled anchor links */
+.contact-link a {
+    color: #00bcd4;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-link a:hover {
+    text-decoration: underline;
+}
+/* ================================================================================================================== */
